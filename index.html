@@ -1,0 +1,478 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>WEB LEARNERS</title>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/contact.css">
+	<link rel="stylesheet" type="text/css" href="css/signin.css">
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+
+	 <!-- <link href="https://mdbootstrap.com/previews/docs/latest/css/mdb.min.css" rel="stylesheet">  -->
+</head>
+<body>
+	<!---------------------NAVBAR--------------------------->
+<nav class="navbar navbar-expand-md navbar-dark fixed-top " >
+		<button class="navbar-toggler navbar-toggler-right" data-toggle="collapse" data-target="#collapse-target">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+					<!-- <a class="navbar-brand d-none d-sm-block logo"><img src="images/logo4 - Copy.png"></a> -->
+					<a href="./index.html" class="navbar-brand pr-3 logo"><span>W</span>eb<span>L</span>earners</a>
+
+	<div class="collapse navbar-collapse text-dark" id="collapse-target">
+		<ul class="navbar-nav">
+			<li class="nav-item"> <a class="nav-link active" href="./index.html"><i class="fa fa-home"></i> Home</a> </li>
+			<li class="nav-item"> <a class="nav-link" href="./Soon/index.html" target="_blank">Blog</a> </li>
+			<li class="nav-item"> <a class="nav-link" href="./aboutus.html">About</a> </li>
+			<li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+			<li class="nav-item dropdown">
+				<a class="nav-link dropdown-toggle" data-toggle="dropdown" data-target="#dropdown-target" href="#" >Courses</a>
+				<span class="caret"></span>
+			<div class="dropdown-menu  text-right" aria-labelledby="dropdown-target">
+				<ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+					<a class="dropdown-item" href="#">HTML</a>
+					<a class="dropdown-item" href="#">CSS</a>
+					<a class="dropdown-item" href="#">Javascript</a>
+					<a class="dropdown-item" href="#">Angular</a>
+					<a class="dropdown-item" href="#">Json</a>
+					<a class="dropdown-item" href="#">PHP</a>
+				</ul>
+			</div>
+			</li>
+		</ul>
+
+	<div class="collapse navbar-collapse" id="collapse-target">
+		<div class="navbar-nav ml-auto">
+
+		<div class="top-btns">
+			<div class="sign-btn">
+				<a href="#"  data-toggle="modal" data-target="#loginModal">
+					<i class="fa fa-lock text-info"></i> Sign In</a>
+				<a href="#" data-toggle="modal" data-target="#singupModal"	>
+					<i class="fa fa-user text-primary"></i> Register</a>
+				<a href="#" class="bg-danger" style="border:none;"><i class="fa fa-search"></i></a>
+			</div>
+		</div>
+
+	</div>
+</div>
+<div>
+</nav>
+
+<!----------------------end------------------NAVBAR-------------end------------------->
+
+<div class="modal fade" role="dialog" id="loginModal">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-header bg-dark">
+				<h3 class="modal-title align-content-center text-white p-2">LOG IN</h3>
+				<button type="button" class="close" data-dismiss="modal">&times;</button>			
+			</div>
+			<div class="modal-body" id="form">
+					<form class="login-form forms">
+						<input name="email" type="text" placeholder="Email" required="required" />
+						<input name="password" type="password" placeholder="Password" required="required"/>
+						<button type="submit" id="login-btn">Login</button>
+						<p class="message">Not registered?
+							<a class="reg switch" href="#singupModal">Create an account</a>
+						</p>
+					</form>
+				</div>
+			</div>			
+		</div>
+	</div>
+
+
+	
+<div class="modal fade" role="dialog" id="singupModal">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-header bg-dark">
+				<h3 class="modal-title align-content-center text-white p-2">SIGN UP</h2>
+				<button type="button" class="close" data-dismiss="modal">&times;</button>			
+			</div>
+			<div class="modal-body" id="form">
+				<form class="register-form forms">
+					<input name="fname" type="text" placeholder="First name" required="required"/>
+					<input name="lname" type="text" placeholder="Last name" required="required"/>
+					<input name="email" type="email" placeholder="Email" required="required"/>
+					<input name="password" type="password" placeholder="Password" required="required"/>
+					<input name="phone no." type="number" placeholder="Mobile No." required="required"/>
+					<button type="submit">create</button>
+					<p class="message">Already registered?
+					<a class="log switch" href="./index.html">Sign In</a>
+					</p>
+				</form>
+			</div>
+		</div>
+	</div>
+</div>
+<!------------------------FRONT SECTION------------------------>
+<div class="container-fluid container-bar " id="home">
+	<div class="crossfade">
+			<figure></figure>
+			<figure></figure>
+			<figure></figure>
+			<figure></figure>
+			<figure></figure>
+	</div>
+	<div style="padding-top:170px;"></div>
+			<div class="text-center" id="heading_home">
+				<!-- <h6 class="text-center shadow-lg  mb-3">WELCOME TO WEB LEARNERS</h6> -->
+				<br>
+					<h1 id="sub-text" class="text-uppercase"><span class="underline-magical">
+						follow your <br>DREAMS<br>they know the way</span>
+					</h1><br>
+				<button class="btn btn-lg shadow-lg mb-4" style="border-radius:0px;
+				background-color: #2eabcc;"><a class="text-white" href="./Soon/index.html">Get started</a></button><br>
+				<div class="blog-social ">
+				<br>
+					<i class="fa fa-google-plus-circle rounded-circle p-2 mr-2"></i>
+					<i class="fa fa-facebook-square rounded-circle mr-2  p-2 "></i>
+					<i class="fa fa-medium rounded-circle  mr-2 p-2"></i>
+					<i class="fa fa-skype rounded-circle mr-2 p-2"></i>
+					<i class="fa fa-twitter rounded-circle mr-2 p-2"></i>
+					<i class="fa fa-youtube-play rounded-circle  mr-2 p-2"></i>
+					<i class="fa fa-linkedin rounded-circle mr-2 p-2"></i>
+					<i class="fa fa-github rounded-circle  mr-2 p-2"></i>
+				</div>
+		</div>
+</div>
+<!------------end------------FRONT SECTION--------------end---------->
+
+<section class="banner-bottom-w3layouts banner-main" id="dark">
+        <div class="container">
+            <div class="inner-sec-wthree-w3ls py-md-3 ">
+                <h3 class="tittle-w3l text-center mb-lg-5 mb-3">
+                   Welcome Our Site</h3>
+                <div class="row mt-5">
+                    <div class="col-lg-6 about-img">
+                        <img src="images/abc.jpg" alt="" class="img-fluid img-thumbnail mt-3">
+                    </div>
+                    <div class="col-md-6 aboutright">
+                        <h3 class="text-danger">Education is the foundation upon</h3>
+                        <h3 class="text-danger"> which we build our future.</h3>
+                        <h4 class="text-info">Design is so simple that's why it is so complicated</h4>
+                        <p>The current challenges facing traditional colleges and universities — including higher tuition, budget cuts, and course shortages — cause many students to search for alternatives. Online education has clearly become one of the most popular higher education alternatives. The continually improving reputation of online learning helped fuel its expansion, as initial skepticism faltered in the face of evidence showing that online learning can be just as effective as face-to-face education..</p>
+                        <div class="read inner ">
+						<a href="./aboutus.html" class="btn btn-sm about-btn ">Read More</a>
+					</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<!--------------------------CONTENT AREA-------------------------------->
+<!-- <div class="container-fluid" id="dark">
+	<div class="row">
+			<div class="col-sm-8">
+				<h1 class="quotes">
+					THINGS ARE NOT ALWAYS<br>
+					&nbsp;#000000 AND #FFFFFF<br>
+					&nbsp;&nbsp;&nbsp;IT'S UPTO YOU HOW<br>
+					&nbsp;&nbsp;YOU SEE THE THINGS
+				</h1>
+			</div>
+			<div class="col-sm-4 d-none d-sm-block">
+				<img src="images/student-849825.jpg" alt="" class="img-responsive1 content-img" style="display:block; width:100%; height:auto;" />
+			</div>
+	</div>
+</div> -->
+
+<!------------end--------------CONTENT AREA--------------end------------------>
+
+
+<!--------------------------COURSES AREA-------------------------------->
+<div class="container-fluid our-courses" id="courses">
+	<div class="container">
+		<h1 class="text-center"><span class="underline--magical">Our Courses</span></h1>
+		
+		<div class="row">
+			<div class="col-sm-2">
+				<a href="#" class="courses-index"><img src="images/html.svg" alt="" class="img-responsive " style="display:block; width:100%; height:auto;"></a>
+			</div>
+			<div class="col-sm-2 d-none d-sm-block">
+				<a href="#"><img src="images/css.svg" alt="" class="img-responsive" style="display:block; width:100%; height:auto;"></a>
+			</div>
+			<div class="col-sm-2 ">
+				<a href="#"><img src="images/javas.svg" alt="" class="img-responsive" style="display:block; width:100%; height:auto;"></a>
+
+			</div>
+			<div class="col-sm-2 d-none d-sm-block">
+				<a href="#"><img src="images/angular.svg" alt="" class="img-responsive" style="display:block; width:100%; height:auto;"></a>
+
+			</div>
+			<div class="col-sm-2 d-none d-sm-block">
+				<a href="#"><img src="images/reactjs.svg" alt="" class="img-responsive" style="display:block; width:100%; height:auto;"></a>
+	
+			</div>
+			<div class="col-sm-2 d-none d-sm-block">
+				<a href="#"><img src="images/java.svg" alt="" class="img-responsive" style="display:block; width:100%; height:auto;"></a>
+		
+			</div>
+		</div> 
+
+<!-------------end---------------ROW 1--------------end--------->
+
+		<div class="row top-margin">
+			<div class="col-sm-2  d-none d-sm-block">
+				<a href="#"><img src="images/nodejs.svg" alt="" class="img-responsive" style="display:block; width:100%; height:auto;"></a>
+			</div>
+			<div class="col-sm-2 d-none d-sm-block">
+				<a href="#"><img src="images/php.svg" alt="" class="img-responsive" style="display:block; width:100%; height:auto;"></a>
+			</div>
+			<div class="col-sm-2 d-none d-sm-block">
+				<a href="#"><img src="images/android.svg"  alt="" class="img-responsive" style="display:block; width:100%; height:auto;"></a>
+			</div>
+			<div class="col-sm-2 d-none d-sm-block">
+					<a href="#"><img src="images/photo.svg" alt="" class="img-responsive" style="display:block; width:100%; height:auto;"></a>
+			</div>
+			<div class="col-sm-2 d-none d-sm-block">
+					<a href="#"><img src="images/jquery.svg" alt="" class="img-responsive" style="display:block; width:100%; height:auto;"></a>
+			</div>
+
+			<div class="col-sm-2	 d-none d-sm-block">
+					<a href="http://next.plnkr.co/edit/?p=catalogue&utm_source=legacy&utm_medium=banner&utm_campaign=next&preview"  target="_blank"><img src="images/word.svg" alt="text_editor" class="img-responsive" style="display:block; width:100%; height:auto;"></a>
+			</div>
+		</div>
+	</div>
+</div> 
+	<!-------------end---------------ROW 2--------------end--------->
+<!--------------end------------COURSES AREA-------------end------------------->
+
+<!--------------------------------OUR TEAM----------------------------------->
+
+<div class="container-fluid our-main-team">
+	<div class="container">
+	<h1 class="text-center our-team"><span class="underline--magical">Our Team</span></h1>
+	<div class="row justify-content-center ">
+
+		<div class="card col-sm-4 shadow-lg">
+			<div class="card-header">
+					<img src="images/himanshu.jpg" class=" rounded-circle img-fluid" style="display:block; width:100%; height:auto;">
+				</div>
+			<div class="card-body ">
+					<h3 class="text-center">Himanshu Singh</h3>
+					<p class=" text-center font-size-sm letter-spacing-extra text-gray-700 font-weight-bold margin-top-x1 margin-bottom-x3">Back-End Developer</p>
+					<p class="text-white">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor icididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea .</p>
+
+					<h4 class="text-uppercase text-center"><span class="underline--magical">CONNECT</span></h4>
+					<div class="text-center social-btn-team">
+					<i class="fa fa-facebook-square rounded-circle bg-white mr-2 p-2 "></i>
+						<i class="fa fa-linkedin rounded-circle bg-white mr-2 p-2"></i>
+						<i class="fa fa-twitter rounded-circle bg-white mr-2 p-2"></i>
+						<i class="fa fa-skype rounded-circle bg-white mr-2 p-2"></i>
+						<i class="fa fa-github rounded-circle bg-white mr-2 p-2"></i>
+						<hr>
+			</div>			<!-- <button class="btn align-self-center btn-danger">Send Email</button> -->
+			</div>
+		</div>
+
+		<div class="card col-sm-4 shadow-lg">
+			<div class="card-header ">
+				<img src="images/param.JPG" class="rounded-circle" style="display:block; width:100%; height:auto;">
+			</div>
+			<div class="card-body">
+					<h3 class="text-center ">Paramjeet Dhiman</h3>
+					<p class=" text-center font-size-sm letter-spacing-extra text-gray-700 font-weight-bold margin-top-x1 margin-bottom-x3">Front-End Developer</p>
+					<p class="text-white">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor icididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea .</p>
+						<h4 class="text-uppercase text-center"><span class="underline--magical">CONNECT</span></h4>
+						<div class="text-center social-btn-team">
+						<i class="fa fa-facebook-square rounded-circle bg-white mr-2 p-2 "></i>
+						<i class="fa fa-linkedin rounded-circle bg-white mr-2 p-2"></i>
+						<i class="fa fa-twitter rounded-circle bg-white mr-2 p-2"></i>
+						<i class="fa fa-skype rounded-circle bg-white mr-2 p-2"></i>
+						<i class="fa fa-github rounded-circle bg-white mr-2 p-2"></i>
+						<hr>
+						</div><!-- <button class="btn align-self-center btn-danger">Send Email</button> -->
+			</div>
+		</div>
+
+		<div class="card col-sm-4 shadow-lg">
+			<div class="card-header ">
+					<img src="images/love.jpg" class="rounded-circle" style="display:block; width:100%; height:auto;">
+			</div>
+			<div class="card-body">
+					<h3 class="text-center">Lovepreet Singh</h3>
+					<p class=" text-center font-size-sm letter-spacing-extra text-gray-700 font-weight-bold margin-top-x1 margin-bottom-x3">Cyber Expert</p>
+					<p class="text-white">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor icididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea .</p>
+						<h4 class="text-uppercase text-center "><span class="underline--magical">CONNECT</span></h4>
+					<div class="text-center social-btn-team">
+						<i class="fa fa-facebook-square rounded-circle bg-white mr-2 p-2 "></i>
+						<i class="fa fa-linkedin rounded-circle bg-white mr-2 p-2"></i>
+						<i class="fa fa-twitter rounded-circle bg-white mr-2 p-2"></i>
+						<i class="fa fa-skype rounded-circle bg-white mr-2 p-2"></i>
+						<i class="fa fa-github rounded-circle bg-white mr-2 p-2"></i>
+						<hr>
+					</div>	<!-- <button class="btn align-self-center btn-danger">Send Email</button> -->
+			</div>
+		</div>
+	</div>
+</div>
+</div>
+
+<!-----------end---------------------OUR TEAM-----------------end------------------>
+<div class="container-fluid" id="aim">
+	<div class="container" >
+		<div class="row">
+			<div class="col-md-6 align-self-center"  id="aim-us">
+				<p class="mission">Our Mission</p>
+				<div class="border-bottom"></div>
+				<ul class="mt-4">
+					<li> Gather people of same background at one place to help and share knowledge</li>
+					<li> Learn, Share  & Develop</li>
+				</ul>
+			</div>
+			<div class="col-md-6 align-self-center"  id="aim-us">
+				<p class="">How it works</p>
+				<div class="border-bottom"></div>
+				<ul class="mt-4">
+					<li>Join Us</li>
+					<li> Write your own post</li>
+					<li> Help people who is asking for help</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	</div>
+
+<!--------------------------------CONTACT SECTION----------------------------------->
+
+<div class="container-fluid contact-us" id="contact">
+		<div class="container">
+				<h1 class="text-center"><span class="underline--magical">Get in <span class="content-header "> Touch with us</span></span></h1>
+				<p class="text-center">I'd love to hear from you! Please send me a note or comment and I'll reply promptly.</p>
+			</div>
+<div class="inner contact">
+		<div class="contact-form">
+			<form id="contact-us" class="text-center" >
+			
+				<div class="col-xs-6 wow animated slideInLeft" data-wow-delay=".5s">
+					<!-- <i class="fa fa-users p-3 bg-info"></i> -->
+					<input type="text" name="name" id="name" required="required" class="form" placeholder="Name" />
+					<!-- <i class="fa fa-at p-3 bg-info"></i> -->
+					<input type="email" name="mail" id="mail" required="required" class="form" placeholder="Email" />
+					<!-- <i class="fa fa-mobile p-3 bg-info"></i> -->
+					<input type="text" name="subject" id="mobile no" required="required" class="form" placeholder="Mobile No." />
+				</div>
+			
+				<div class="col-xs-6 wow animated slideInRight" data-wow-delay=".5s">
+					<textarea name="message" id="message" class="form textarea"  placeholder="Message"></textarea>
+				</div>
+				
+				<div class="relative fullwidth col-xs-12">
+				
+					<button type="submit" id="submit" name="submit" class="form-btn semibold">Send Message</button> 
+				</div>
+		
+				<div class="clear"></div>
+			</form>
+
+			<div class="mail-message-area">
+				<div class="alert gray-bg mail-message not-visible-message">
+				</div>
+			</div>
+
+		</div>
+	</div>
+</div>
+
+<!-------------end-------------------CONTACT SECTION------------------end----------------->
+
+<!-----------------------------------FOOTER-------------------------------------------->
+
+	<div class="container-fluid footer bg-dark">
+		<div class="container">
+			<div class="row">
+			<div class="col-sm-4">
+					<h5>Quick Links</h5>
+					<ul class="list-unstyled">
+						<li><a href="#home">Home</a></li>
+						<li><a href="#">Blog</a></li>
+						<li><a href="#courses">Courses</a></li>
+						<li><a href="#">About</a></li>
+
+					</ul>
+			</div>
+			<div class="col-sm-4">
+					<h5>Our Address</h5>
+					<address>
+						<p>Jalandhar,Punjab<br>
+						<i class="fa fa-phone "> </i> +91 287 123 4765<br>
+						<i class="fa fa-fax"> </i> +91 702 700 6363<br>
+						<i class="fa fa-envelope"> </i>
+						<a href="mailto:confusion@food.net">weblearners@gmail.com</a></p>	
+					</address>	
+
+			</div>
+			<div class="col-sm-4">
+					<h5 class="social">GET UPDATES </h5>
+					<form>
+					<div class="form-group">
+						<input type="email" class="form-control" id="inputEmail" placeholder="Email" data-error="Bruh, that email address is invalid" required>
+					  </div>
+					  <div class="form-group">
+							<button type="submit" id="submit" name="submit" class="btn btn-sm bg-primary ">Submit</button> 
+						</div>
+					</form>
+			</div>
+						<div class=" d-flex col-sm-12 justify-content-center social-btn">
+                                <div class="grid ">
+                                
+                                 <div class="d-flex col-sm align-content-center social">
+										<i class="fa fa-google-plus-circle	 rounded-circle p-2 mr-2 bg-warning "></i>
+										<i class="fa fa-facebook-square rounded-circle mr-2 bg-warning p-2 "></i>
+										<i class="fa fa-medium rounded-circle bg-warning mr-2 p-2"></i>
+										<i class="fa fa-skype rounded-circle bg-warning mr-2 p-2"></i>
+										<i class="fa fa-twitter rounded-circle bg-warning mr-2 p-2"></i>
+										<i class="fa fa-youtube-play rounded-circle bg-warning mr-2 p-2"></i>
+										<i class="fa fa-linkedin rounded-circle bg-warning mr-2 p-2"></i>
+										<i class="fa fa-github rounded-circle bg-warning mr-2 p-2"></i>
+                                </div>
+                            </div> 
+                        </div>   
+				</div>
+				</div>
+
+		
+	<div class="container">
+			<p class="text-center copyright">Copyright © 2018 Web Leaners Inc. All rights reserved</p>
+		</div>		
+	</div></div>	
+
+<!-------------end------------------------FOOTER--------------------------end------------------>
+
+
+<!-----------------------------------SCRIPTS-------------------------------------------->
+	<script src="https://code.jquery.com/jquery-3.3.1.js"></script>			
+	<script type="text/javascript" src="js/jquery.js"></script>
+	<script type="text/javascript" src="js/bootstrap.js"></script>
+	<script src="js/script.js"></script>
+	<!--------------------JavaScript--------------------->
+	<script type="text/javascript">
+    	$(window).on('scroll', function(){
+    		if($(window).scrollTop()){
+    			$('nav').addClass('black');
+    		}
+    		else{
+    			$('nav').removeClass('black');
+    		}
+    	})
+	</script>
+
+<!----------------------Jquery-------------------------->
+   <script>
+	   $('#btn-main').click(function(){
+		   $('#loginModal').fadeToggle(500);
+	   });
+   </script>
+
+<!----------------end-------------------SCRIPTS---------------------end----------------------->
+
+</body>
+</html>
