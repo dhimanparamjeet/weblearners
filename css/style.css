@@ -1,0 +1,470 @@
+@import url('https://fonts.googleapis.com/css?family=Sail');
+@import url('https://fonts.googleapis.com/css?family=Monoton');
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+@import url('https://fonts.googleapis.com/css?family=Nunito+Sans:300i&subset=latin-ext,vietnamese');
+@import url('https://fonts.googleapis.com/css?family=Spicy+Rice');
+
+/*----------NAVBAR------------*/
+body{
+	background-image: url("../images/city-2199339.jpg"); 
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+nav{
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 90px;
+	box-sizing: border-box;
+	transition: .3s;
+}
+
+nav.black{
+	background: rgba(0,0,0,0.9);
+	height: 90px;
+}
+
+nav .logo{
+	padding-top: 25px;
+	transition: .3s;
+}
+@media only screen and (max-width: 600px) {
+    nav .log	o {
+	 padding: auto ;
+	 margin: auto;
+    }
+}
+nav.black .logo{
+	color: #fff;
+}
+
+.navbar{
+	border-top: 5px groove #1a2930;
+}
+a.navbar-brand {
+	height: inherit;
+	line-height: inherit;
+	font-size: 1.6em;
+	text-transform: uppercase;
+	font-weight: 400;
+	letter-spacing: 3px;
+	font-family: 'Spicy Rice', cursive;
+}
+ a.navbar-brand span {
+	font-family: 'Monoton', cursive;
+	font-size: 30px;
+	font-weight: bold;
+	letter-spacing: 5px;
+	color:#00ddc1;
+  }
+
+  .dropdown-menu ul :hover{
+	  color: white;
+	  background-color:  #007bff;
+  }
+  
+#log-in a i{
+	transition: all 0.5s ease;
+	background-color: #e62739;
+	cursor: pointer;
+}
+#log-in a i:hover{
+	transition: all 0.2s ease;
+	background-color: #2fa870;
+	cursor: pointer;
+	transition: background-color 0.9s ease-out;
+}
+
+/*-----end-----NAVBAR-------end-----*/
+
+/*--------------HEADING TAGS-----------*/
+p{
+	font-family: 'Raleway', sans-serif;
+}
+h1{ 
+	color:white;
+	font:bold 38px ;
+	margin: 0px 20px;  
+	font-family: 'Raleway', sans-serif;
+	margin-top: 30px;
+	margin-bottom: 10px;
+}	
+h3{
+	font:bold 32px ;
+	padding-top: 10px;
+	color: #2c2c2c;
+}
+
+h5{
+	margin-top: 10px;
+	color:#28a745;
+	font-weight:bold;
+}	
+h6{
+	font: bold 40px ;
+	color: #2bbbad;
+	letter-spacing: 0.3em;
+}	
+#sub-text{
+	font-family: "apercu",sans-serif;
+	color: #fff;
+	letter-spacing: 0.4em;
+	font-size: 40px;
+	font-weight: 800;
+}
+.quotes{
+	font-family: raleway;
+	color: #fff;
+	letter-spacing: 0.2em;
+	font-size: 35px;
+	font-weight: bold;
+	margin-top:40px;
+	margin-left: 30px;
+}
+.quotes:hover{
+	color:#1a2930;
+}
+/*-----end---------HEADING TAGS-------end----*/
+
+/*-----------------SOCIAL ICONS-----------------*/
+
+.social-icons{
+	margin-right: 5px;
+}
+.social-btn-team i{
+	transition: all 0.5s ease;
+	color: #ee5253;
+}
+.social-btn-team i:hover{
+	cursor: pointer;
+	transition: all 0.5s ease;
+    background-image: -webkit-linear-gradient(50deg,#2096ff,#05ffa3)!important;
+	color:black;
+	border-radius:50%;
+	transition: background-color 3s ease-out;
+	border:1px solid #1a2930;
+}
+.blog-social i{
+	transition: all 0.5s ease;
+	cursor: pointer;
+	color: #233237;
+	background-color: #fff;
+}
+.blog-social i:hover {
+	transition: all 0.5s ease;
+	background-color: #000;
+	color: #07aac7;
+	cursor: pointer;
+	transition: background-color 1s ease-out;
+	border:1px dashed #1a2930;
+}
+.social-btn{
+	color:black;
+}
+.social-btn:hover{
+	cursor: pointer;
+	transition: background-color 3s ease-out;
+	/* background: -webkit-linear-gradient(50deg,#45cafc,#303f9f)!important; */
+    /* background-image: linear-gradient(to right, #fbc2eb 0%, #a6c1ee 51%, #fbc2eb 100%); */
+	/* color:gray; */
+	/* background-color: rgba(0,0,0,0.3); */
+}
+
+
+
+/*--------end---------SOCIAL ICONS--------end---------*/
+
+/*----------------------IMAGES--------------------------------*/
+
+.img-responsive{
+
+	display:block;
+	width:100%;
+	height:auto;
+	transition: transform .2s;
+	margin: 0 auto;
+}
+.img-responsive:hover{
+	transition: background-color 3s ease-in;
+	background-color:rgb(202, 202, 202);
+	transition: background-color 2s ease-out;
+	transform: scale(1.1); 
+	clip-path: polygon(50% 0%, 83% 12%, 100% 43%, 94% 78%, 68% 100%, 32% 100%, 6% 78%, 0% 43%, 17% 12%);
+}
+.content-img{
+	margin-top: 0px;
+	padding: 10px;
+	
+}
+
+video {
+    max-width: 100%;
+    height: auto;
+}
+/*-----------end--------------IMAGES---------------end-----------------*/
+
+
+.container-bar{
+    width: 100%;
+   padding: 20px 0px;
+	/* background-image: url("../images/paul-gilmore-1073040-unsplash.jpg");  */
+	/* background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-color: #464646; */
+}
+#dark{
+	/* background: linear-gradient(90deg, rgba(119,193,124,1) 0%, rgba(21,188,210,1) 77%, rgba(21,188,210,1) 100%); */
+	background-color: #FFC145;
+	color:#1a2930;
+}
+/* #dark:hover{
+	transition: all 3s; 
+	transition: background-image 2s ease-out;
+	color:#1a2930;
+} */
+.our-courses{
+	/* background-color: #9068be; */
+	background-color: #1a2930;
+	padding:25px 0px;
+	
+}
+.our-courses .top-margin{
+	margin-top: 30px;
+}
+.our-main-team{
+	background-image: linear-gradient(360deg, #000000 0%, #434343 100%);
+	padding: 10px;
+
+}
+#aim{
+	background-image: linear-gradient(150deg, #556270 0%, #ff6b6b 100%);
+	/* background-color:#ff6b6b; */
+	color: white;
+}
+/* #aim:hover{
+	transition: all 3s; 
+	background-image: linear-gradient(90deg, #ac92ec, #d770ad);
+	transition: background-image 2s ease-out;
+	color:#1a2930;
+} */
+#aim-us{
+	padding:20px 20px ;
+}
+#aim-us p{
+	font-weight: bold;
+	font-size: 30px;	
+	padding: 5px;
+	text-align: center;
+	color: #000;
+	/* color: #1a2930; */
+}
+#aim-us .mt-4 li{
+	margin-top: 4px;
+	font-size: 16px;
+	 color: #e4e4e4; 
+}
+.border-bottom{
+	border:2px solid #ff3b3f;
+	width: 100%;
+}
+/*-------------------------------------FOOTER------------------------------------------*/
+
+.footer{
+	background-color:#00bf6f;
+	color:rgb(219,214, 214);
+	font-size: 14px;
+	padding: 5px;
+	border-bottom: 5px groove red;
+}
+.footer a{
+	color:rgb(219, 214, 214);
+}
+.social i:hover{
+	transition: all 0.5s ease;
+	background: linear-gradient(180deg, rgba(119,193,124,1) 0%, rgba(21,188,210,1) 77%, rgba(21,188,210,1) 100%);
+	transition: background-color 2s ease-out;
+}
+
+.copyright{
+	color:gray;
+}
+
+
+
+
+h3.tittle-w3l span {
+    display: block;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 0.3em;
+    color: #ec1c24;
+    letter-spacing: 4px;
+}
+h3.tittle-w3l {
+    text-shadow: 2px 2px 2px rgba(41, 41, 41, 0.26);
+    font-size: 3em;
+    color: #3d3e48;
+    font-weight: 600;
+}
+.img-thumbnail{
+    background: #fcf3f3;
+	padding: 0.6em;
+	border-radius: 0px;
+}
+.aboutright h4 {
+	font-family: 'Nunito Sans', sans-serif;
+    margin: 1.5em 0;
+    font-style: italic;
+    font-family: initial;
+    font-size: 16px;
+    color: #383838;
+}
+.about-btn {
+	border: 2px solid #e83e8c;
+	border-radius: 0px;
+	color: #000;
+	font-size: 14px;
+
+}
+.about-btn:hover {
+	color: #fff;
+	text-transform: uppercase;
+	padding: 5px;
+    font-size: 14px;
+	background-color: #e83e8c;
+    text-shadow: 0 0 1px rgba(0, 0, 0, 0.2), 0 1px 0 rgba(0, 0, 0, 0.2);
+    transition: all 1s ease;
+}
+
+
+	.banner-main{
+		background: #FFC145;
+		position: relative;
+		padding-bottom: 120px;
+	  }
+	  
+	  .banner-main::after,
+	  .banner-main::before {
+		position: absolute;
+		content: '';
+		width: 130px;
+		height: 130px;
+		background: #FFC145;
+		bottom: -1em;
+		z-index: 100;
+	  }
+	  
+	  .banner-main::before {
+		right: 50%;
+		-webkit-transform: skew(0, 20deg);
+				transform: skew(0, 20deg);
+	  }
+	  .banner-main::after {
+		left: 50%;
+		-webkit-transform: skew(0, -20deg);
+				transform: skew(0, -20deg);
+	  }
+	  
+	  .sign-btn a {
+		border: 2px solid #ffff;
+		display: inline-block;
+		border: 2px solid #ffff;
+		padding: 0.5em 2.5em;
+		margin-right: 0.5em;
+		color: #fff;
+		letter-spacing: 1px;
+		font-size: 0.8em;
+ 	   	background-color: #212631;
+    	font-weight: 600;
+   		text-transform: uppercase;
+		transition: 0.2s opacity;
+		text-decoration: none;	
+	  }
+	  .sign-btn a:hover{
+		transition: background-color 1s all;
+		background-color: #ff3b3f;
+		border: #000;
+		color: #000;
+		transition: background-color 1s ease-out;
+	  }
+
+
+	  .our-courses{
+		background: #1a2930;
+		position: relative;
+		padding-bottom: 120px;
+	  }
+	  
+	  .our-courses::after,
+	  .our-courses::before {
+		position: absolute;
+		content: '';
+		width: 100px;
+		height: 100px;
+		background: #1a2930;
+		bottom: -1em;
+		z-index: 100;
+	  }
+	  
+	  .our-courses::before {
+		right: 50%;
+		-webkit-transform: skew(0, 20deg);
+				transform: skew(0, 20deg);
+	  }
+	  .our-courses::after {
+		left: 50%;
+		-webkit-transform: skew(0, -20deg);
+				transform: skew(0, -20deg);
+	  } 
+.underline--magical {
+    background-image: linear-gradient(120deg, #ff533d 0%, #4484ce 100%);
+    background-repeat: no-repeat;
+    background-size: 100% 0.2em;
+    background-position: 0 88%;
+	transition: background-size 0.25s ease-in;			
+  }
+  .underline--magical:hover {
+    background-size: 100% 88%;
+	clip-path: polygon(0 24%, 7% 9%, 92% 9%, 100% 25%, 100% 80%, 50% 100%, 0% 80%);
+	padding: 5px;
+}  
+
+  .our-main-team .card{
+	background-image: linear-gradient(120deg, #2193b0 0%, #6dd5ed 100%);
+	border-radius: 0px;
+  }
+  .our-main-team .card-header{
+	background-color:#eee;
+	border-radius:0px;
+	/* clip-path: polygon(20% 0%, 80% 0%, 100% 100%, 0% 100%); */
+}
+@import url('https://fonts.googleapis.com/css?family=Anton');
+
+.underline-magical {
+	background-image: linear-gradient(120deg, #012172  0%, #f67280 50%, #00cdac 100%);
+    background-repeat: no-repeat;
+    background-size: 100% 0.2em;
+    background-position: 0 88%;
+	transition: background-size 0.25s ease-in;	
+	font-family: 'Anton', sans-serif;
+}
+  .underline-magical:hover {
+    background-size: 100% 88%;
+	padding: 3px;
+	cursor: pointer;
+}  
+
+.text-gray-000 {
+    color: #2c2c2c !important;
+}
+.font-size-sm {
+    font-size: 1.2rem !important;
+}
+.text-gray-700 {
+    color: #747D88 !important;
+}
